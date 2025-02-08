@@ -1,0 +1,35 @@
+{
+<<<<<<< HEAD
+  "name": "week5_graphql_validation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+=======
+  "name": "lab2_mocha_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+>>>>>>> 7cd7c4d9c980ffbeea4b71d455af09f941fca7ef
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+<<<<<<< HEAD
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.10.1",
+    "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+=======
+    "chai": "^4.3.6",
+    "mocha": "^11.1.0"
+>>>>>>> 7cd7c4d9c980ffbeea4b71d455af09f941fca7ef
+  }
+}
