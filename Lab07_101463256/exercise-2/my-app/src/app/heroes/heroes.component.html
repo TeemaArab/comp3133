@@ -1,0 +1,16 @@
+<h2>Hero Details</h2>
+<div *ngIf="isHeroVisible">
+  <div *ngFor="let hero of heroes"(click)="onSelect(hero)">
+    <span class="badge">{{ hero.id }}</span>
+    {{ hero.name | heroName }} 
+  </div>
+</div>
+
+<!-- Hero detail section -->
+<app-hero-detail *ngIf="selectedHero" [hero]="selectedHero"></app-hero-detail>
+
+<input type="text" #inputBox (input)="convertToUppercase(inputBox.value)" />
+<input type="text" [value]="uppercaseText" readonly />
+<button (click)="toggleHeroVisibility()">Toggle Hero</button>
+
+
